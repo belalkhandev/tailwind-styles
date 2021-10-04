@@ -1,0 +1,23 @@
+{
+  "name": "tailwind-styles",
+  "version": "1.0.0",
+  "description": "Website design using tailwind css",
+  "main": "index.js",
+  "scripts": {
+    "build-css": "tailwindcss build src/styles.css -o public/styles.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/belalkhandev/tailwind-styles.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/belalkhandev/tailwind-styles/issues"
+  },
+  "homepage": "https://github.com/belalkhandev/tailwind-styles#readme",
+  "dependencies": {
+    "tailwindcss": "^2.2.16"
+  }
+}
